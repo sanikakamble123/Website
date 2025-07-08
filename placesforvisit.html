@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Indian Destinations</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    height:1000px;
+}
+header{
+    background-color: skyblue;
+    color: black;
+    height: 80px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 1700px;
+    text-align: center;
+}
+header:hover
+{
+    background-color:pink;
+    cursor:pointer;
+
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 2.5em;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 50px;
+    padding: 20px 0;
+}
+
+.destination-card {
+    background-color:#f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(155, 17, 17, 0.2);
+    cursor: pointer;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; 
+    display: block;
+    border:100px;
+}
+
+.card-title {
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    position:top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; 
+    color: white; 
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%); 
+    padding-top: 50px;/
+}
+button{
+           display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #ff6600; 
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+}
+footer{
+    color:black;
+    background-color: skyblue;
+    text-align: center;
+     height: 80px;
+      padding: 20px;
+      width: 1700px;
+}
+    </style>
+</head>
+<body>
+
+  
+     <header>
+             <h1>Places For Visiting</h1>
+        </header>
+    <main class="container"> 
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\taj1.jpg" alt="Agra">
+                <div class="card-title">Agra</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\yu.jpg" alt="India Gate">
+                <div class="card-title">India Gate</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\1.jpg"alt="Hampi">
+                <div class="card-title">Hampi</div>
+                <button>BOOK</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\JAIPUR.jpg" alt="Rajasthan">
+                <div class="card-title">Rajasthan</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\OIP (1).jpg" alt="Manali">
+                <div class="card-title">Manali <span class="badge">New</span></div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\2.jpg" alt="Amritsar">
+                <div class="card-title">Srinagar</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\OIP (2).jpg" alt="Srinagar">
+                <div class="card-title">Amritsar</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\Jog-Falls.jpg" alt="Jog Falls">
+                <div class="card-title">Jog Falls</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\123.jpg" alt="Chichen Itza">
+                <div class="card-title">Chichen Itza</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\pq.jpg" alt="Suvarnmandir">
+                <div class="card-title">Italy</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\images (5).jpg" alt="Nashik">
+                <div class="card-title">Harihar Fort</div>
+                <button>BOOk</button>
+            </div>
+            <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\MALDIVES.jpg" alt="Maldives">
+                <div class="card-title">Maldiv</div>
+                <button>BOOk</button>
+            </div>
+
+             <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\gh.jpg" alt="Maldives">
+                <div class="card-title">Kerla Fishing net</div>
+                <button>BOOk</button>
+            </div>
+             <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\images6.jpg" alt="Maldives">
+                <div class="card-title">Maldiv</div>
+                <button>BOOk</button>
+            </div>
+             <div class="destination-card">
+                <img src="C:\Users\hp\Desktop\sanika\img5.jpg" alt="Maldives">
+                <div class="card-title">Japan</div>
+                <button>BOOk</button>
+            </div>
+
+        </div>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br>
+    <footer>
+        <h1> @2025 .BOOK NOW</h1>
+    </footer>
+</body>
+</html>
